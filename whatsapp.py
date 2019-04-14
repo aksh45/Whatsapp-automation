@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-driver=webdriver.Chrome("/home/aki/chromedriver")
+driver=webdriver.Chrome("Your web driver location")
 driver.get("https://web.whatsapp.com/")
 wait=WebDriverWait(driver,600)
 name= input('Enter the name of user or group : ')
